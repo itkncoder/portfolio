@@ -13,6 +13,10 @@
     height: 600px !important;
 }
 
+body {
+    overflow: hidden;
+}
+
 *::selection {
     color: lightblue;
     background-color: rgba(34, 34, 34, 0.397);

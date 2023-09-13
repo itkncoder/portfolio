@@ -13,9 +13,8 @@ const Footer = () => {
             const CHAT_ID = '-1001814016840'
             const URL_API = 'https://api.telegram.org/bot' + TOKEN + '/sendMessage'
 
-            let msg = `<b>-------------</b>\n`
-            msg += `<b>${from}</b>\n`
-            msg += `<b>${message}</b>`
+            let msg = `<b>${from}</b>\n`
+            msg += `<b>${from}</b>`
             
 
             await axios.post(URL_API, {
@@ -50,7 +49,8 @@ const Footer = () => {
             <dialog id="my_modal_2" className="modal">
                 <div className="modal-box border border-[#1E2D3D] max-w-md bg-[#011627]">
                     <h3 className="font-bold text-lg">Contact me!</h3>
-                    <input value={from} onChange={e => setFrom(e.target.value)} type="text" placeholder="From..." className="input bg-[#011627] mt-5 input-bordered w-full h-10" />
+                    <p className="text-[12px] mt-4">(Enter your telegram username if you want my answer)</p>
+                    <input value={from} onChange={e => setFrom(e.target.value)} type="text" placeholder="From..." className="input bg-[#011627] mt-2 input-bordered w-full h-10" />
                     <textarea value={message} onChange={e => setMessage(e.target.value)} className="textarea bg-[#011627] textarea-bordered w-full mt-3" placeholder="Message..."></textarea>
                     <div className="flex w-full justify-end mt-3">
                         <button onClick={onSend} className="btn btn-active btn-ghost">Send by telegram</button>
