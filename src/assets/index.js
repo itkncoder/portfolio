@@ -1,0 +1,15 @@
+import github from "./github.svg"
+import telegram from "./telegram.svg"
+import neon from "./neon.svg"
+import movigo from "./movigo.png"
+import arashov from "./arashov.png"
+import devlans from "./devlans.png"
+import rightbook from "./rightbook.png"
+import forceexchange from "./forceexchange.png"
+import promgarelka from "./promgarelka.png"
+import worldit from "./worldit.png"
+import techyes from "./techyes.png"
+import avolon from "./avolon.png"
+import tosai from "./tosai.png"
+
+export { github, telegram, neon, movigo, arashov, devlans, forceexchange, rightbook, promgarelka, worldit, techyes, avolon, tosai }

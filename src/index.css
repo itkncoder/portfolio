@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Fira Code', monospace;
+}
+
+.swiper {
+    width: 500px !important;
+    height: 600px !important;
+}
+
+*::selection {
+    color: lightblue;
+    background-color: rgba(34, 34, 34, 0.397);
+}
+
+*:focus {
+    border: none !important;
+    outline: none !important;
+}
