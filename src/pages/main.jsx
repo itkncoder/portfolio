@@ -10,7 +10,7 @@ const Main = () => {
     return (
         <div>
             <Wrapper>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between flex-col lg:flex-row px-[25px] lg:px-0 items-center">
                     <div data-aos="fade-left">
                         <p className="text-[18px] text-[#E5E9F0] font-[450]">Hi all. I am</p>
                         <h1 className="text-[62px] font-[400] text-[#E5E9F0]">Khatamov Nuriddin</h1>
@@ -29,7 +29,7 @@ const Main = () => {
                         </div>
                     </div>
                     <img src={neon} className="absolute -z-20 w-[1000px]" width={800} />    
-                    <div data-aos="fade-right">                    
+                    <div data-aos="fade-right" className="hidden lg:block">                    
                         <Swiper
                             direction={'vertical'}
                             spaceBetween={15}
