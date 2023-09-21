@@ -14,7 +14,7 @@ const Footer = () => {
             const URL_API = 'https://api.telegram.org/bot' + TOKEN + '/sendMessage'
 
             let msg = `<b>${from}</b>\n`
-            msg += `<b>${from}</b>`
+            msg += `<b>${message}</b>`
             
 
             await axios.post(URL_API, {
