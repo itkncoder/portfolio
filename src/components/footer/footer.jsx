@@ -35,7 +35,7 @@ const Footer = () => {
                     <a href="https://github.com/itkncoder" target="_blank" className="text-[#607B96] border-l border-[#1E2D3D] h-[55px] flex items-center px-[20px]">
                         <img src={github} className="w-[20px]" alt="github"/>
                     </a>
-                    <a href="https://t.me/itkncoder" target="_blank" className="text-[#607B96] border-x border-[#1E2D3D] h-[55px] flex items-center px-[20px]">
+                    <a href="https://t.me/kncoder" target="_blank" className="text-[#607B96] border-x border-[#1E2D3D] h-[55px] flex items-center px-[20px]">
                         <img src={telegram} className="w-[20px]" alt="telegram"/>
                     </a>
                 </div>
